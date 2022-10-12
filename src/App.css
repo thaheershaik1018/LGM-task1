@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@400;500;600;700&display=swap');
+.Todo-list-container{
+  display: flex;
+  margin: 5rem;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80rem;
+  border: 1px solid black;
+  min-height: 50rem;
+  background-color:#383838;
+  border-radius: 20px;
+  box-shadow: 4rem 4rem 4rem #4009cc;
+
+}
+.todo-form{
+ display: flex;
+ width: 100%;
+ margin-top: 3rem;
+ font-size: 2rem;
+ gap: 2rem;
+
+}
+.todo-form input{
+  border: 3px solid #5bf787;
+  font-size: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  background-color: #2b09e8;
+  font-weight: 800;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.todo-form button{
+  border: 4px solid #250bcd;
+  border-radius: 1rem;
+  background-color: #383838;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: rgb(55, 15, 233);
+  font-family: 'Dancing Script', cursive;
+  color: rgb(33, 247, 165);
+}
+.todo-form button::hover{
+  background-color: rgb(75, 13, 234);
+  color: white;
+  font-weight: 600;
+}
+.todo-text{
+  font-size: 2.5rem;
+}
+.task-div{
+  background-color: aliceblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  box-shadow: 0.5rem 0.5rem 4rem gainsboro;
+  border-radius: 1rem;
+}
+
+.icons{
+  display: flex;
+  gap: 3rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+  background-color: #FFE6E6;
+}
+
+.hide{
+  display: none;
+}
+.todo-form input::after{
+  background-color: #170feb;
+  border: 3px solid #5bf794 ;
+}
+
+::placeholder{
+  color: aliceblue;
+}
